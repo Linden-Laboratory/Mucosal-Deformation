@@ -3,7 +3,8 @@ JupyterLab Notebooks used by the Linden Lab to analyze the mean intensity of ROI
 
 ## Installation 
 1. Download and Extract Files
-2. Open .ipynb files in JupyterLab 
+2. Open .ipynb files in JupyterLab
+3. Install all dependencies 
 
 ## Usage
 Before starting, these notebooks have hardcoded numbers pertaining to our particular experiment that may need to be changed if utilizing a different setup. 
@@ -18,17 +19,15 @@ Step 2:
 2. The locations of the 24 spots are necessary for graphing responses spatially and will need to be changed. These spots are defined in Cell 2.
 
 Step 1 Usage:
-1. Install all dependencies.
-2. Cell 20 is a commented out cell that creates a .csv file with the correct formating for usage in both Steps. Uncomment the code, input your desired name for the .csv file after "CSVfileName =", and run the cell by itself to generate your .csv file.
-3. Add the name of your .csv file in cell 2 after "CSVfileName =".
-4. Restart the kernel and run all cells. You will be prompted to provide 3 files: The first half of the ROI intensity data, the second half of the ROI intensity data, and the location data for the ROIs (Left, Top, Width, Height)
-5. Select the GI Region and Plexus of your cells
-6. Further analysis will be guided by GUI. 
+1. Cell 20 is a commented out cell that creates a .csv file with the correct formating for usage in both Steps. Uncomment the code, input your desired name for the .csv file after "CSVfileName =", and run the cell by itself to generate your .csv file.
+2. Add the name of your .csv file in cell 2 after "CSVfileName =".
+3. Restart the kernel and run all cells. You will be prompted to provide 3 files: The first half of the ROI intensity data, the second half of the ROI intensity data, and the location data for the ROIs (Left, Top, Width, Height)
+4. Select the GI Region and Plexus of your cells
+5. Further analysis will be guided by GUI. 
 
 Step 2 Usage: 
-1. Install all dependencies
-2. Add the name of your .csv file in cell 3 after "filename =".
-3. Restart kernel and run all cells. 
+1. Add the name of your .csv file in cell 3 after "filename =".
+2. Restart kernel and run all cells. 
 
 ## License
 This project is licensed under the [MIT License](LICENSE)
