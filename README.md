@@ -31,4 +31,4 @@ Step 2 Usage:
 3. Restart kernel and run all cells. 
 
 ## License
-This project is licensed under the [MIT License]
+This project is licensed under the [MIT License](LICENSE)
